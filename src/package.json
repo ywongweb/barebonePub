@@ -1,0 +1,21 @@
+{
+  "name": "example-app",
+  "version": "0.0.2",
+  "description": "",
+  "main": "module.js",
+  "scripts": {
+    "android": "rn-wix-engine -p engineConfig.json -a",
+    "ios": "rn-wix-engine -p engineConfig.json -i"
+  },
+  "devDependencies": {
+    "@ywongweb/barebone": "0.0.4"
+  },
+  "peerDependencies": {
+    "@ywongweb/barebone": "*"
+  },
+  "engineConfig": {
+    "modules": [
+      "example-app"
+    ]
+  }
+}
