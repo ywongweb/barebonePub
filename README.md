@@ -1,6 +1,5 @@
 ### How to use this repo
 
-
 - [Download and install Xcode](https://download.developer.apple.com/Developer_Tools/Xcode_13.4.1/Xcode_13.4.1.xip) if you don't have it already.
 - **Fork** this project and change it into a **private** repository, you will need this because:  
 -- 1. A real world project will be private anyway.   
@@ -12,7 +11,7 @@
 - make an ios native build with with `yarn build-ios`
 - (optional) test the newly created binary by opening a simulator and running `yarn ios`
 - Publish the native build to GH packages by opening your terminal, `cd` into `/level_one/level_two/level_three/` then run `npm publish` in there.
-- Congrats, you've now build and deployed a native build as a github package!
+- Congrats, you've now build and deployed a native build as a github package! Hope you enjoyed this new React Native development experience.
 
 ### Next step
 Test the native binary in the [JavaScript only repo](https://github.com/ywongweb/bareboneFE).
